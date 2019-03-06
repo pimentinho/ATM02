@@ -26,5 +26,17 @@ namespace ATM02.Controllers
 
             return View();
         }
+
+        public ActionResult Serial(String letterCase)
+        {
+            var serial = "ASPNETMVC5ATM1";
+            if (letterCase == "lower")
+            {
+                return Content(serial.ToLower());
+            }
+            return Content(serial);
+        }
+
+
     }
 }
