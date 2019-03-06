@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM02", "ATM02\ATM02.csproj", "{7F1BE654-1538-4FAB-B47F-875DCC284E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM02.Tests", "ATM02.Tests\ATM02.Tests.csproj", "{134995FD-F4B3-4F18-983D-BAC1233E23C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F1BE654-1538-4FAB-B47F-875DCC284E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1BE654-1538-4FAB-B47F-875DCC284E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1BE654-1538-4FAB-B47F-875DCC284E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F1BE654-1538-4FAB-B47F-875DCC284E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134995FD-F4B3-4F18-983D-BAC1233E23C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134995FD-F4B3-4F18-983D-BAC1233E23C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134995FD-F4B3-4F18-983D-BAC1233E23C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134995FD-F4B3-4F18-983D-BAC1233E23C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A04E77F-8FD0-46D8-972E-1CE93AB18B10}
+	EndGlobalSection
+EndGlobal
